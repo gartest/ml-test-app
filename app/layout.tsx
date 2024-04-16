@@ -1,3 +1,6 @@
+import NavBar from "./components/navbar";
+import Breadcrumb from "./components/breadcrumb";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +8,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NavBar />
+        <Breadcrumb />
+        {children}
+        </body>
     </html>
   );
 }

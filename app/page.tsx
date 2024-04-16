@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "App Router",
+  title: "Actual home",
 };
 
 export default function Page() {
-  return <h1>App Router</h1>;
+  return <h1>Actual home</h1>;
 }
