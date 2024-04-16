@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Classic next routing</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
