@@ -4,9 +4,18 @@ import styles from './navbar.module.scss';
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from "react";
+import { useSearchParams } from 'next/navigation';
 
 export default function NavBar() {
-  const [searchText, setSearchText] = useState("");
+  const searchParams = useSearchParams();
+  const search = (searchParams && searchParams.get('search')) || "";
+  const [searchText, setSearchText] = useState(search);
+
+  const goToSearch = (query: String) => {
+    if(searchText){
+      window.location.href = `/items?search=${query}`;
+    }
+  }
   return (
     <nav className={styles.navbar}>
       <div className={styles['navbar-bounds']}>
@@ -19,7 +28,15 @@ export default function NavBar() {
           placeholder="Nunca dejes de buscar"
           value={searchText} 
           onChange={(e) => setSearchText(e.target.value)} 
+          onKeyDown={(e) => {
+            if(e.key === 'Enter'){
+              goToSearch(searchText);
+            }
+          }}
         />
+        <button className={styles['navbar-btn']} onClick={() => goToSearch(searchText)}>
+          <Image src="/ic_Search.png" alt="Buscar" width={32} height={32} />
+        </button>
       </div>      
     </nav>
   );

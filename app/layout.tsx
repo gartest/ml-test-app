@@ -22,7 +22,7 @@ const proximanova = ProximaNova({
 
 export const metadata = {
   title: "Mercado Libre - Test app",
-  description: "A sample app",
+  description: "Meta description for SEO",
   icons: {
     icon: "/favicon.png",
   },
