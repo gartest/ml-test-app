@@ -10,6 +10,8 @@
         padding: 8px 10px;
         display: flex;
         flex-grow: 1;
+        position: relative;
+        align-items: center;
     }
     &-input{
         font-family: $font;
@@ -30,5 +32,13 @@
         &::placeholder{
             color: $font-color-light;
         }
+    }
+    &-btn{
+        background-color: white;
+        position: absolute;
+        height: 32px;
+        right: 12px;
+        border: none;
+        cursor: pointer;
     }
 }
