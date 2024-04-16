@@ -1,0 +1,34 @@
+@import '@/styles/variables.scss';
+
+.navbar{
+    display: flex;
+    height: 56px;
+    background-color: $ml-yellow;
+    justify-content: center;
+    &-bounds {
+        max-width: 1200px;
+        padding: 8px 10px;
+        display: flex;
+        flex-grow: 1;
+    }
+    &-input{
+        font-family: $font;
+        font-weight: lighter;
+        font-size: 18px;
+        display: flex;
+        flex-grow: 1;
+        color: $font-color-dark;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+        border-radius: 2px;
+        border: 1.5px solid rgba(0,0,0,0);
+        margin-left: 32px;
+        padding: 10px 60px 10px 15px;
+        &:focus, :focus-visible{
+            border: 1.5px solid $ml-blue;
+            outline: none;
+        }
+        &::placeholder{
+            color: $font-color-light;
+        }
+    }
+}
