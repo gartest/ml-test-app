@@ -1,21 +1,23 @@
 import "@/styles/global.scss";
 import ProximaNova from 'next/font/local'
 import NavBar from "./components/navbar";
-import Breadcrumb from "./components/breadcrumb";
 
 const proximanova = ProximaNova({
   src: [
     {
       path: './fonts/proximanova-light.woff2',
       weight: '200',
+      style: 'normal',
     },
     {
       path: './fonts/proximanova-regular.woff2',
       weight: '400',
+      style: 'normal',
     },
     {
       path: './fonts/proximanova-semibold.woff2',
       weight: '700',
+      style: 'normal',
     }
   ]
 });
@@ -38,7 +40,6 @@ export default function RootLayout({
       <body>
           <NavBar />
           <div className="container">
-          <Breadcrumb />
             {children}
           </div>
         </body>

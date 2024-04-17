@@ -18,5 +18,24 @@ export type Author = {
     lastname: String
 };
 
+export type ItemsSearchResponse = {
+    author: Author,
+    categories: String[] | undefined,
+    items: Item[],
+}
+
+export type DescriptionItem = Item & { description: String };
+
+export type ItemDescriptionResponse = {
+    autor: Author,
+    item: DescriptionItem,
+  };
+
+export type ResponseError = {
+    error: String,
+    message: String,
+};
+   
+
 
 

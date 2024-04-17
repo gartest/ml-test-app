@@ -7,7 +7,7 @@
     justify-content: center;
     &-bounds {
         max-width: 1200px;
-        padding: 8px 10px;
+        padding: 8px 0px;
         display: flex;
         flex-grow: 1;
         position: relative;
@@ -15,8 +15,8 @@
     }
     &-input{
         font-family: $font;
-        font-weight: lighter;
-        font-size: 18px;
+        font-weight: 200;
+        font-size: $font-size-l;
         display: flex;
         flex-grow: 1;
         color: $font-color-dark;
@@ -24,7 +24,7 @@
         border-radius: 2px;
         border: 1.5px solid rgba(0,0,0,0);
         margin-left: 32px;
-        padding: 10px 60px 10px 15px;
+        padding: 6px 60px 10px 15px;
         &:focus, :focus-visible{
             border: 1.5px solid $ml-blue;
             outline: none;
@@ -36,9 +36,12 @@
     &-btn{
         background-color: white;
         position: absolute;
-        height: 32px;
+        height: 28px;
         right: 12px;
         border: none;
         cursor: pointer;
     }
+}
+.logo{
+    display: flex;
 }

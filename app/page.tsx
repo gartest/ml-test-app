@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Actual home",
+  title: "Mercado Libre",
 };
 
 export default function Page() {
-  return <h1>Actual home</h1>;
+  return <h1>&nbsp;</h1>;
 }

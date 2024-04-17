@@ -1,9 +1,13 @@
 import styles from './breadcrumb.module.scss';
 
-export default function Breadcrumb() {
+export default function Breadcrumb({ categories }: { categories: String[] | undefined}) {
   return (
     <div className={styles.breadcrumb}>
-      <a href="#">Breadcrumb</a>
+      <ul>
+        {
+          categories?.map(c => <li>{c}</li>)
+        }
+      </ul>      
     </div>
   );
 }

@@ -1,25 +1,27 @@
 "use client"
 
 import styles from './navbar.module.scss';
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from "react";
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 
 export default function NavBar() {
   const searchParams = useSearchParams();
+  const router = useRouter();
+
   const search = (searchParams && searchParams.get('search')) || "";
   const [searchText, setSearchText] = useState(search);
 
   const goToSearch = (query: String) => {
     if(searchText){
-      window.location.href = `/items?search=${query}`;
+      router.push(`/items?search=${query}`);
     }
   }
   return (
     <nav className={styles.navbar}>
       <div className={styles['navbar-bounds']}>
-        <Link href="/">
+        <Link href="/" className={styles.logo}>
           <Image src="/Logo_ML.png" alt="Logo Mercado libre" width={60} height={40} />
         </Link>        
         <input 
@@ -35,7 +37,7 @@ export default function NavBar() {
           }}
         />
         <button className={styles['navbar-btn']} onClick={() => goToSearch(searchText)}>
-          <Image src="/ic_Search.png" alt="Buscar" width={32} height={32} />
+          <Image src="/ic_Search.png" alt="Buscar" width={28} height={28} />
         </button>
       </div>      
     </nav>
