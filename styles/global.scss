@@ -4,8 +4,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: $font;
   background-color: $background-color;
+  font-family: var(--proximanova);
   .container{
     max-width: 1200px;
     margin: 0 auto;

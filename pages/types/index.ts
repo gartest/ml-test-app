@@ -1,30 +1,30 @@
 export type Price = {
-    currency: String,
+    currency: string,
     amount: Number,
     decimals: Number
 };
 
 export type Item = {
-    id: String,
-    title: String,
+    id: string,
+    title: string,
     price: Price,
-    picture: String,
-    condition: String,
+    picture: string,
+    condition: string,
     free_shippin: Boolean,
 };
 
 export type Author = {
-    name: String,
-    lastname: String
+    name: string,
+    lastname: string
 };
 
 export type ItemsSearchResponse = {
     author: Author,
-    categories: String[] | undefined,
+    categories: string[] | undefined,
     items: Item[],
 }
 
-export type DescriptionItem = Item & { description: String };
+export type DescriptionItem = Item & { description: string };
 
 export type ItemDescriptionResponse = {
     autor: Author,
@@ -32,8 +32,8 @@ export type ItemDescriptionResponse = {
   };
 
 export type ResponseError = {
-    error: String,
-    message: String,
+    error: string,
+    message: string,
 };
    
 

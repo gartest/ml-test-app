@@ -35,7 +35,7 @@ const data = await searchProducts(search);
 
 return (
     <>
-        <Breadcrumb categories={data.categories}/>
+        <Breadcrumb categories={data.categories as string[]}/>
         {
             data.items.slice(0,4).map(i => <Card item={i} />)
         }

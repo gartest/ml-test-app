@@ -5,13 +5,19 @@
     ul{
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 12px;
         margin: 0;
         padding: 0;
         list-style: none;
         li{
             color: $font-color-light;
             font-size: $font-size-m;
+            svg{
+                margin-left: 10px;
+            }
+            &:last-of-type > svg{
+                display: none;
+            }
         }
     }
 }

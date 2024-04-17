@@ -42,7 +42,7 @@ export default async function handler(
                 amount: detailData.price,
                 decimals: 2,
             },
-            picture: detailData.pictures[0].secure_url,
+            picture: detailData.pictures[0].url,
             condition: detailData.condition,
             free_shippin: detailData.shipping.free_shipping,
             description: descriptionData.plain_text,

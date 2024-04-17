@@ -1,0 +1,60 @@
+@import '@/styles/variables.scss';
+
+.detail{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border-bottom: thin solid $background-color;
+    padding: 32px;
+
+    &-upper-section{
+        display: flex;
+        justify-content: space-between;
+        &-image-container{
+            display: flex;
+            width: 680px;
+        }
+        &-right-section{
+            max-width: 350px;
+            span{
+                font-size: $font-size-m;
+                color: $font-color-light;
+            }
+            h4{
+                font-size: $font-size-xl;
+                margin: 16px 0 0 0;
+            }
+            h1{
+                font-size: $font-size-xxxl;
+                margin: 32px 0;
+            }
+            button{
+                background-color: $ml-blue;
+                border-radius: 6px;
+                border-color: transparent;
+                color: #fff;
+                font-size: $font-size-mm;
+                font-weight: 600;
+                height: 48px;
+                width: 100%;
+                cursor: pointer;
+                transition: box-shadow .25s ease-out, background-color .2s ease-out;
+                &:hover{
+                    background-color: $ml-blue-hover;
+                }
+            }
+        }
+    }
+
+    &-description {
+        max-width: calc(100% - 350px);
+        h1{
+            font-size: $font-size-xxl;
+        }
+        p{
+            font-size: $font-size-mm;
+            color: $font-color-light;
+        }
+    }
+}
