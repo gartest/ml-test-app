@@ -13,7 +13,7 @@ export default function NavBar() {
   const search = (searchParams && searchParams.get('search')) || "";
   const [searchText, setSearchText] = useState(search);
 
-  const goToSearch = (query: String) => {
+  const goToSearch = (query: string) => {
     if(searchText){
       router.push(`/items?search=${query}`);
     }

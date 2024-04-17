@@ -19,7 +19,8 @@ const proximanova = ProximaNova({
       weight: '700',
       style: 'normal',
     }
-  ]
+  ],
+  variable:'--proximanova'
 });
 
 export const metadata = {
@@ -36,8 +37,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={proximanova.className}>
-      <body>
+    <html lang="en" className={proximanova.variable}>
+      <body className={proximanova.variable}>
           <NavBar />
           <div className="container">
             {children}

@@ -14,8 +14,7 @@
         align-items: center;
     }
     &-input{
-        font-family: $font;
-        font-weight: 200;
+        font-family: var(--proximanova);
         font-size: $font-size-l;
         display: flex;
         flex-grow: 1;
