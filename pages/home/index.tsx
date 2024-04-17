@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          I'm gonna leave this here just to show old routing
+          I'm gonna leave this here just to show remember routing
         </h1>
       </main>
     </div>

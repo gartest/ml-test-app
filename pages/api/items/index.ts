@@ -1,25 +1,22 @@
 import { BASE_URL, AUTHOR_NAME, AUTHOR_LASTNAME } from '@/pages/constants';
-import { Author, Item } from '@/pages/types';
+import { Item, ItemsSearchResponse } from '@/pages/types';
 import { SearchResponse } from '@/pages/types/searchresponse';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import validator from 'validator';
  
-type ResponseData = {
-  author: Author,
-  categories: String[] | undefined,
-  items: Item[],
-}
- 
+
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<ResponseData>
+  res: NextApiResponse<ItemsSearchResponse>
 ) {
   const { q: rawQ } = req?.query;
   const q = validator.escape(rawQ ? rawQ.toString() : "");
   const response = await fetch(`${BASE_URL}/sites/MLA/search?q=${q}`);
   const data: SearchResponse = await response.json();
 
-  const categories = data.filters ? data.filters.find(f => f.id === "category")?.values.map(v => v.name) : [];
+  const filters = data.filters && data.filters.find(f => f.id === "category");
+
+  const categories = filters?.values ? filters?.values[0]?.path_from_root?.map(v => v.name) : [];
 
   const items = data.results ? data.results.map(r => ({ 
     id: r.id, 

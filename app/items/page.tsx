@@ -1,19 +1,44 @@
-"use client"
+import { APP_URL } from '@/pages/constants';
+import { ItemsSearchResponse } from '@/pages/types';
+import Breadcrumb from 'app/components/breadcrumb';
+import Card from 'app/components/card';
+import { Metadata } from 'next';
 
-import { useSearchParams } from 'next/navigation';
-import { useEffect } from 'react';
+type Props = {
+    searchParams: { [key: string]: string | string[] | undefined }
+}
+
+async function searchProducts(q:string | string[] | undefined): Promise<ItemsSearchResponse> {
+    const res = await fetch(`${APP_URL}/api/items?q=${q?.toString()}`);
+    if (!res.ok) {
+        throw new Error('Failed to fetch data');
+    } 
+    return res.json();
+}
+
+export async function generateMetadata({searchParams }: Props): Promise<Metadata> {   
+    return {
+      title: `Buscando: ${searchParams?.search}`,
+    }
+}
+
   
-export default function Items() {
-const searchParams = useSearchParams();
-const search = searchParams && searchParams.get('search');
+export default async function Items({ 
+    searchParams
+ }: {
+    searchParams?: { [key: string]: string | string[] | undefined };
+}) {
+const search = searchParams?.search;
 
-useEffect(()=>{
-    document.title = `Buscando: ${search}`;
-})
+const data = await searchProducts(search);
+
 
 return (
     <>
-        <h1>Search: {search}</h1>
+        <Breadcrumb categories={data.categories}/>
+        {
+            data.items.slice(0,4).map(i => <Card item={i} />)
+        }
     </>
 );
 }

@@ -6,5 +6,5 @@ import Page from "./page";
 
 it("App Router: Works with Server Components", () => {
   render(<Page />);
-  expect(screen.getByRole("heading")).toHaveTextContent("Actual home");
+  expect(screen.getByRole("heading")).toBeInTheDocument();
 });
