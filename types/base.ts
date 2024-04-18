@@ -11,6 +11,7 @@ export type Item = {
     picture: string,
     condition: string,
     free_shippin: Boolean,
+    seller?: string,
 };
 
 export type Author = {
@@ -29,6 +30,7 @@ export type DescriptionItem = Item & { description: string };
 export type ItemDescriptionResponse = {
     autor: Author,
     item: DescriptionItem,
+    categories?: string[]
   };
 
 export type ResponseError = {

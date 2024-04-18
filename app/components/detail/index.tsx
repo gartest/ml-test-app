@@ -1,4 +1,4 @@
-import { DescriptionItem } from '@/pages/types';
+import { DescriptionItem } from 'types/base';
 import styles from './styles.module.scss';
 
 export default function Detail({ item }: { item: DescriptionItem }) {

@@ -1,5 +1,5 @@
 import { APP_URL } from '@/pages/constants';
-import { ItemsSearchResponse } from '@/pages/types';
+import { ItemsSearchResponse } from 'types/base';
 import Breadcrumb from 'app/components/breadcrumb';
 import Card from 'app/components/card';
 import { Metadata } from 'next';
@@ -36,7 +36,7 @@ return (
     <>
         <Breadcrumb categories={data.categories as string[]}/>
         {
-            data.items.slice(0,4).map(i => <Card item={i} />)
+            data.items.map(i => <Card key={i.id} item={i} />)
         }
     </>
 );

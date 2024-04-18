@@ -1,17 +1,10 @@
 "use client"
 
-import { useEffect } from 'react';
+import { useState } from 'react';
 import styles from './styles.module.scss';
 import Icon from '../icon';
 
-export default function Breadcrumb({ categories }: { categories: string[] | null}) {
-  useEffect(() =>{
-    if(typeof categories !== null){
-      localStorage.setItem('categories', JSON.stringify(categories));
-    } else {
-      categories = JSON.parse(localStorage.getItem('categories') as string);
-    }
-  })
+export default function Breadcrumb({ categories }: { categories: string[] | undefined}) {
   return (
     <div className={styles.breadcrumb}>
       <ul>

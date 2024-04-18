@@ -1,6 +1,6 @@
-import { BASE_URL, AUTHOR_NAME, AUTHOR_LASTNAME } from '@/pages/constants';
-import { Item, ItemsSearchResponse } from '@/pages/types';
-import { SearchResponse } from '@/pages/types/searchresponse';
+import { BASE_URL, AUTHOR_NAME, AUTHOR_LASTNAME, LIMIT } from '@/pages/constants';
+import { Item, ItemsSearchResponse } from 'types/base';
+import { SearchResponse } from 'types/searchresponse';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import validator from 'validator';
  
@@ -11,7 +11,8 @@ export default async function handler(
 ) {
   const { q: rawQ } = req?.query;
   const q = validator.escape(rawQ ? rawQ.toString() : "");
-  const response = await fetch(`${BASE_URL}/sites/MLA/search?q=${q}`);
+  const url = `${BASE_URL}/sites/MLA/search?q=${q}&limit=${LIMIT}`;
+  const response = await fetch(url);
   const data: SearchResponse = await response.json();
 
   const filters = data.filters && data.filters.find(f => f.id === "category");
@@ -29,6 +30,7 @@ export default async function handler(
     picture: r.thumbnail, 
     condition: r.condition,
     free_shippin: r.shipping.free_shipping,
+    seller: r.seller.nickname,
   }) as Item) : [];
 
   res.status(200).json({ 

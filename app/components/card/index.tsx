@@ -1,7 +1,8 @@
-import { Item } from '@/pages/types';
+import { Item } from 'types/base';
 import styles from './styles.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
+import { capitalizeEveryWord } from 'utils';
 
 export default function Card({ item }: { item: Item }) {
   return (
@@ -24,7 +25,7 @@ export default function Card({ item }: { item: Item }) {
             </Link>            
           </div>
           <div className={styles['card-info-location']}>
-            <span>Capital federal</span>
+            <span>{item?.seller ? capitalizeEveryWord(item.seller as string) : ""}</span>
           </div>
         </div>
     </div>
