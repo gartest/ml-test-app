@@ -1,6 +1,6 @@
 "use client"
 
-import styles from './navbar.module.scss';
+import styles from './styles.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from "react";
@@ -12,6 +12,7 @@ export default function NavBar() {
 
   const search = (searchParams && searchParams.get('search')) || "";
   const [searchText, setSearchText] = useState(search);
+
 
   const goToSearch = (query: string) => {
     if(searchText){

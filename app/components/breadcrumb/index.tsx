@@ -1,8 +1,8 @@
 "use client"
 
 import { useEffect } from 'react';
-import styles from './breadcrumb.module.scss';
-import Icon from './icon';
+import styles from './styles.module.scss';
+import Icon from '../icon';
 
 export default function Breadcrumb({ categories }: { categories: string[] | null}) {
   useEffect(() =>{
