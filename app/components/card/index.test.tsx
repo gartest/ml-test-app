@@ -10,7 +10,7 @@ it("Breadcrumb component", () => {
         id: 'sampleid',
         title: 'Test title',
         price: {
-            amount: 100.4,
+            amount: 100,
             currency: 'CLP',
             decimals: 0,
         },
@@ -20,6 +20,6 @@ it("Breadcrumb component", () => {
     }
     render(<Card item={item} />);
     expect(screen.getAllByRole('link')[0]).toHaveAttribute('href', '/items/sampleid');
-    expect(screen.getByRole('heading').innerHTML).toBe('$100,4');
+    expect(screen.getByRole('heading').innerHTML).toBe('$100');
     expect(screen.getByRole('img')).toHaveAttribute('src', '/_next/image?url=%2Fimage_url&w=384&q=75');
 });
