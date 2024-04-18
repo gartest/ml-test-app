@@ -1,0 +1,45 @@
+@import '@/styles/variables.scss';
+
+.card{
+    background-color: #fff;
+    display: flex;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: thin solid $background-color;
+    padding: 16px;
+    &:last-of-type{
+        border-radius: 0 0 4px 4px;
+    }
+    a, a:visited{
+        color: $font-color-dark;
+        text-decoration: none;
+    }
+    &-info{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        &-desc{
+            display: flex;
+            flex-direction: column;
+            max-width: 680px;
+            min-width: 320px;
+            h4{
+                font-size: $font-size-xl;
+                line-height: $font-size-xl;
+                margin: 16px 0 0 0;
+            }
+            p{
+                color: $font-color-dark;
+                font-size: $font-size-l;
+                margin: 24px 0 0 0;
+            }
+        }
+        &-location{
+            display: flex;
+            min-width: 200px;
+            padding-top: 16px;
+            span{
+                color: $font-color-light;
+            }
+        }
+    }
+}

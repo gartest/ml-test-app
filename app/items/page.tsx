@@ -32,7 +32,6 @@ const search = searchParams?.search;
 
 const data = await searchProducts(search);
 
-
 return (
     <>
         <Breadcrumb categories={data.categories as string[]}/>
