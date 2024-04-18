@@ -1,0 +1,1486 @@
+{
+    "id": "MLA1397418693",
+    "site_id": "MLA",
+    "title": "Apple iPhone SE Se (3ª Generación, 64 Gb) - Azul Medianoche - Distribuidor Autorizado",
+    "seller_id": 195832229,
+    "category_id": "MLA1055",
+    "official_store_id": 2549,
+    "price": 739198.6,
+    "base_price": 739198.6,
+    "original_price": 1055998,
+    "currency_id": "ARS",
+    "initial_quantity": 76,
+    "sale_terms": [
+        {
+            "id": "WARRANTY_TIME",
+            "name": "Tiempo de garantía",
+            "value_id": null,
+            "value_name": "12 meses",
+            "value_struct": {
+                "number": 12,
+                "unit": "meses"
+            },
+            "values": [
+                {
+                    "id": null,
+                    "name": "12 meses",
+                    "struct": {
+                        "number": 12,
+                        "unit": "meses"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "WARRANTY_TYPE",
+            "name": "Tipo de garantía",
+            "value_id": "2230279",
+            "value_name": "Garantía de fábrica",
+            "value_struct": null,
+            "values": [
+                {
+                    "id": "2230279",
+                    "name": "Garantía de fábrica",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        },
+        {
+            "id": "INVOICE",
+            "name": "Facturación",
+            "value_id": "6891885",
+            "value_name": "Factura A",
+            "value_struct": null,
+            "values": [
+                {
+                    "id": "6891885",
+                    "name": "Factura A",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        }
+    ],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "condition": "new",
+    "permalink": "https://articulo.mercadolibre.com.ar/MLA-1397418693-apple-iphone-se-se-3-generacion-64-gb-azul-medianoche-distribuidor-autorizado-_JM",
+    "thumbnail_id": "696564-MLA52130732644_102022",
+    "thumbnail": "http://http2.mlstatic.com/D_696564-MLA52130732644_102022-I.jpg",
+    "pictures": [
+        {
+            "id": "696564-MLA52130732644_102022",
+            "url": "http://http2.mlstatic.com/D_696564-MLA52130732644_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_696564-MLA52130732644_102022-O.jpg",
+            "size": "338x500",
+            "max_size": "536x792",
+            "quality": ""
+        },
+        {
+            "id": "790114-MLA52130732645_102022",
+            "url": "http://http2.mlstatic.com/D_790114-MLA52130732645_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_790114-MLA52130732645_102022-O.jpg",
+            "size": "250x500",
+            "max_size": "396x792",
+            "quality": ""
+        },
+        {
+            "id": "996430-MLA52130732650_102022",
+            "url": "http://http2.mlstatic.com/D_996430-MLA52130732650_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_996430-MLA52130732650_102022-O.jpg",
+            "size": "499x500",
+            "max_size": "1101x1102",
+            "quality": ""
+        },
+        {
+            "id": "774552-MLA52130761059_102022",
+            "url": "http://http2.mlstatic.com/D_774552-MLA52130761059_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_774552-MLA52130761059_102022-O.jpg",
+            "size": "499x500",
+            "max_size": "1107x1108",
+            "quality": ""
+        },
+        {
+            "id": "687281-MLA52130732655_102022",
+            "url": "http://http2.mlstatic.com/D_687281-MLA52130732655_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_687281-MLA52130732655_102022-O.jpg",
+            "size": "496x500",
+            "max_size": "1101x1108",
+            "quality": ""
+        },
+        {
+            "id": "678895-MLA52130732656_102022",
+            "url": "http://http2.mlstatic.com/D_678895-MLA52130732656_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_678895-MLA52130732656_102022-O.jpg",
+            "size": "496x500",
+            "max_size": "1101x1108",
+            "quality": ""
+        },
+        {
+            "id": "753606-MLA52130757161_102022",
+            "url": "http://http2.mlstatic.com/D_753606-MLA52130757161_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_753606-MLA52130757161_102022-O.jpg",
+            "size": "499x500",
+            "max_size": "1101x1102",
+            "quality": ""
+        },
+        {
+            "id": "705770-MLA52130732658_102022",
+            "url": "http://http2.mlstatic.com/D_705770-MLA52130732658_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_705770-MLA52130732658_102022-O.jpg",
+            "size": "499x500",
+            "max_size": "1107x1108",
+            "quality": ""
+        },
+        {
+            "id": "893226-MLA52130757163_102022",
+            "url": "http://http2.mlstatic.com/D_893226-MLA52130757163_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_893226-MLA52130757163_102022-O.jpg",
+            "size": "499x500",
+            "max_size": "1101x1102",
+            "quality": ""
+        },
+        {
+            "id": "627496-MLA52130761064_102022",
+            "url": "http://http2.mlstatic.com/D_627496-MLA52130761064_102022-O.jpg",
+            "secure_url": "https://http2.mlstatic.com/D_627496-MLA52130761064_102022-O.jpg",
+            "size": "499x500",
+            "max_size": "1101x1102",
+            "quality": ""
+        }
+    ],
+    "video_id": null,
+    "descriptions": [],
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+        "mode": "me2",
+        "methods": [],
+        "tags": [
+            "self_service_out",
+            "mandatory_free_shipping"
+        ],
+        "dimensions": null,
+        "local_pick_up": false,
+        "free_shipping": true,
+        "logistic_type": "cross_docking",
+        "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+        "city": {
+            "id": "TUxBQlBBVDI0ODFa",
+            "name": "Paternal"
+        },
+        "state": {
+            "id": "AR-C",
+            "name": "Capital Federal"
+        },
+        "country": {
+            "id": "AR",
+            "name": "Argentina"
+        },
+        "search_location": {
+            "neighborhood": {
+                "id": "TUxBQkFHUjk3NjJa",
+                "name": "Agronomía"
+            },
+            "city": {
+                "id": "TUxBQ0NBUGZlZG1sYQ",
+                "name": "Capital Federal"
+            },
+            "state": {
+                "id": "TUxBUENBUGw3M2E1",
+                "name": "Capital Federal"
+            }
+        },
+        "id": 1202690442
+    },
+    "seller_contact": null,
+    "location": {},
+    "coverage_areas": [],
+    "attributes": [
+        {
+            "id": "BATTERY_CAPACITY",
+            "name": "Capacidad de la batería",
+            "value_id": "7058234",
+            "value_name": "1821 mAh",
+            "values": [
+                {
+                    "id": "7058234",
+                    "name": "1821 mAh",
+                    "struct": {
+                        "number": 1821,
+                        "unit": "mAh"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "BATTERY_TYPE",
+            "name": "Tipo de batería",
+            "value_id": "95013",
+            "value_name": "Ion de litio",
+            "values": [
+                {
+                    "id": "95013",
+                    "name": "Ion de litio",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "BRAND",
+            "name": "Marca",
+            "value_id": "9344",
+            "value_name": "Apple",
+            "values": [
+                {
+                    "id": "9344",
+                    "name": "Apple",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "CAMERAS_MAIN_FEATURES",
+            "name": "Características principales de las cámaras",
+            "value_id": null,
+            "value_name": "Bokeh,Modo noche,HDR frontal,Flash LED",
+            "values": [
+                {
+                    "id": "9727052",
+                    "name": "Bokeh",
+                    "struct": null
+                },
+                {
+                    "id": "9788716",
+                    "name": "Modo noche",
+                    "struct": null
+                },
+                {
+                    "id": "9613245",
+                    "name": "HDR frontal",
+                    "struct": null
+                },
+                {
+                    "id": "9696525",
+                    "name": "Flash LED",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "CARRIER",
+            "name": "Compañía telefónica",
+            "value_id": "298335",
+            "value_name": "Liberado",
+            "values": [
+                {
+                    "id": "298335",
+                    "name": "Liberado",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        },
+        {
+            "id": "CHARGE_CONNECTOR_TYPE",
+            "name": "Tipo de conector de carga",
+            "value_id": "8275368",
+            "value_name": "Lightning",
+            "values": [
+                {
+                    "id": "8275368",
+                    "name": "Lightning",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        },
+        {
+            "id": "COLOR",
+            "name": "Color",
+            "value_id": "11157706",
+            "value_name": "Azul medianoche",
+            "values": [
+                {
+                    "id": "11157706",
+                    "name": "Azul medianoche",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "COMPATIBLE_SIM_CARD_SIZES",
+            "name": "Tamaños de tarjeta SIM compatibles",
+            "value_id": "80453",
+            "value_name": "Nano-SIM",
+            "values": [
+                {
+                    "id": "80453",
+                    "name": "Nano-SIM",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "CPU_MODELS",
+            "name": "Modelos de CPU",
+            "value_id": null,
+            "value_name": "2x3.22 GHz Avalanche,4x1.82 GHz Blizzard",
+            "values": [
+                {
+                    "id": "11856509",
+                    "name": "2x3.22 GHz Avalanche",
+                    "struct": null
+                },
+                {
+                    "id": "11856510",
+                    "name": "4x1.82 GHz Blizzard",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "DEPTH",
+            "name": "Profundidad",
+            "value_id": "6878387",
+            "value_name": "7.3 mm",
+            "values": [
+                {
+                    "id": "6878387",
+                    "name": "7.3 mm",
+                    "struct": {
+                        "number": 7.3,
+                        "unit": "mm"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "DETAILED_MODEL",
+            "name": "Modelo detallado",
+            "value_id": "19392551",
+            "value_name": "MMXF3BZ/A",
+            "values": [
+                {
+                    "id": "19392551",
+                    "name": "MMXF3BZ/A",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "DIGITAL_ZOOM",
+            "name": "Zoom digital",
+            "value_id": "7199631",
+            "value_name": "5x",
+            "values": [
+                {
+                    "id": "7199631",
+                    "name": "5x",
+                    "struct": {
+                        "number": 5,
+                        "unit": "x"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "DISPLAY_ASPECT_RATIO",
+            "name": "Relación de aspecto de la pantalla",
+            "value_id": "11856255",
+            "value_name": "16:19",
+            "values": [
+                {
+                    "id": "11856255",
+                    "name": "16:19",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "DISPLAY_PIXELS_PER_INCH",
+            "name": "Píxeles por pulgada de la pantalla",
+            "value_id": "7058235",
+            "value_name": "326 ppi",
+            "values": [
+                {
+                    "id": "7058235",
+                    "name": "326 ppi",
+                    "struct": {
+                        "number": 326,
+                        "unit": "ppi"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "DISPLAY_REFRESH_RATE",
+            "name": "Frecuencia de actualización de la pantalla",
+            "value_id": "7873264",
+            "value_name": "60 Hz",
+            "values": [
+                {
+                    "id": "7873264",
+                    "name": "60 Hz",
+                    "struct": {
+                        "number": 60,
+                        "unit": "Hz"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "DISPLAY_RESOLUTION",
+            "name": "Resolución de la pantalla",
+            "value_id": "7199624",
+            "value_name": "750 px x 1334 px",
+            "values": [
+                {
+                    "id": "7199624",
+                    "name": "750 px x 1334 px",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "DISPLAY_RESOLUTION_TYPE",
+            "name": "Tipo de resolución de la pantalla ",
+            "value_id": "19326933",
+            "value_name": "Pantalla Retina HD",
+            "values": [
+                {
+                    "id": "19326933",
+                    "name": "Pantalla Retina HD",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "DISPLAY_SIZE",
+            "name": "Tamaño de la pantalla",
+            "value_id": "6877626",
+            "value_name": "4.7 \"",
+            "values": [
+                {
+                    "id": "6877626",
+                    "name": "4.7 \"",
+                    "struct": {
+                        "number": 4.7,
+                        "unit": "\""
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "DISPLAY_TECHNOLOGY",
+            "name": "Tecnología de la pantalla",
+            "value_id": "80490",
+            "value_name": "IPS",
+            "values": [
+                {
+                    "id": "80490",
+                    "name": "IPS",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "DISPLAY_TYPE",
+            "name": "Tipo de pantalla",
+            "value_id": "11856511",
+            "value_name": "Retina HD",
+            "values": [
+                {
+                    "id": "11856511",
+                    "name": "Retina HD",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "EMPTY_GTIN_REASON",
+            "name": "Motivo de GTIN vacío",
+            "value_id": "17055161",
+            "value_name": "Otra razón",
+            "values": [
+                {
+                    "id": "17055161",
+                    "name": "Otra razón",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        },
+        {
+            "id": "ESIMS_NUMBER",
+            "name": "Cantidad de eSIMs",
+            "value_id": "11151772",
+            "value_name": "2",
+            "values": [
+                {
+                    "id": "11151772",
+                    "name": "2",
+                    "struct": null
+                }
+            ],
+            "value_type": "number"
+        },
+        {
+            "id": "FRONT_CAMERAS_NUMBER",
+            "name": "Cantidad de cámaras frontales",
+            "value_id": "7477216",
+            "value_name": "1",
+            "values": [
+                {
+                    "id": "7477216",
+                    "name": "1",
+                    "struct": null
+                }
+            ],
+            "value_type": "number"
+        },
+        {
+            "id": "FRONT_CAMERA_APERTURE",
+            "name": "Apertura del diafragma de la cámara frontal",
+            "value_id": "7408595",
+            "value_name": "f 2.2",
+            "values": [
+                {
+                    "id": "7408595",
+                    "name": "f 2.2",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "FRONT_CAMERA_RECORDING_RESOLUTION",
+            "name": "Resolución de video de la cámara frontal",
+            "value_id": "7173215",
+            "value_name": "1920 px x 1080 px",
+            "values": [
+                {
+                    "id": "7173215",
+                    "name": "1920 px x 1080 px",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "GPU_MODEL",
+            "name": "Modelo de GPU",
+            "value_id": "7741027",
+            "value_name": "Apple GPU",
+            "values": [
+                {
+                    "id": "7741027",
+                    "name": "Apple GPU",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "GTIN",
+            "name": "Código universal de producto",
+            "value_id": null,
+            "value_name": "194253013051",
+            "values": [
+                {
+                    "id": null,
+                    "name": "194253013051",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "HAZMAT_TRANSPORTABILITY",
+            "name": "Transportabilidad Hazmat",
+            "value_id": "13414677",
+            "value_name": "Exceptuado",
+            "values": [
+                {
+                    "id": "13414677",
+                    "name": "Exceptuado",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        },
+        {
+            "id": "HEIGHT",
+            "name": "Altura",
+            "value_id": "6900335",
+            "value_name": "138.4 mm",
+            "values": [
+                {
+                    "id": "6900335",
+                    "name": "138.4 mm",
+                    "struct": {
+                        "number": 138.4,
+                        "unit": "mm"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "INTERNAL_MEMORY",
+            "name": "Memoria interna",
+            "value_id": "59726",
+            "value_name": "64 GB",
+            "values": [
+                {
+                    "id": "59726",
+                    "name": "64 GB",
+                    "struct": {
+                        "number": 64,
+                        "unit": "GB"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "IP_RATING",
+            "name": "Clasificación IP",
+            "value_id": "8275375",
+            "value_name": "IP67",
+            "values": [
+                {
+                    "id": "8275375",
+                    "name": "IP67",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "IS_DUAL_SIM",
+            "name": "Es Dual SIM",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "IS_DUST_RESISTANT",
+            "name": "Es resistente al polvo",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "IS_SPLASH_RESISTANT",
+            "name": "Es resistente a salpicaduras",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "IS_WATER_RESISTANT",
+            "name": "Es resistente al agua",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "ITEM_CONDITION",
+            "name": "Condición del ítem",
+            "value_id": "2230284",
+            "value_name": "Nuevo",
+            "values": [
+                {
+                    "id": "2230284",
+                    "name": "Nuevo",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        },
+        {
+            "id": "LINE",
+            "name": "Línea",
+            "value_id": "14014814",
+            "value_name": "Iphone se",
+            "values": [
+                {
+                    "id": "14014814",
+                    "name": "Iphone se",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "MAIN_COLOR",
+            "name": "Color principal",
+            "value_id": "2450293",
+            "value_name": "Azul",
+            "values": [
+                {
+                    "id": "2450293",
+                    "name": "Azul",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        },
+        {
+            "id": "MAIN_FRONT_CAMERA_RESOLUTION",
+            "name": "Resolución de la cámara frontal principal",
+            "value_id": "7199634",
+            "value_name": "7 Mpx",
+            "values": [
+                {
+                    "id": "7199634",
+                    "name": "7 Mpx",
+                    "struct": {
+                        "number": 7,
+                        "unit": "Mpx"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "MAIN_REAR_CAMERA_RESOLUTION",
+            "name": "Resolución de la cámara trasera principal",
+            "value_id": "7199628",
+            "value_name": "12 Mpx",
+            "values": [
+                {
+                    "id": "7199628",
+                    "name": "12 Mpx",
+                    "struct": {
+                        "number": 12,
+                        "unit": "Mpx"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "MAX_DISPLAY_BRIGHTNESS",
+            "name": "Brillo máximo de la pantalla",
+            "value_id": "6877637",
+            "value_name": "625 cd/m²",
+            "values": [
+                {
+                    "id": "6877637",
+                    "name": "625 cd/m²",
+                    "struct": {
+                        "number": 625,
+                        "unit": "cd/m²"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "MOBILE_NETWORK",
+            "name": "Red móvil",
+            "value_id": "7472027",
+            "value_name": "5G",
+            "values": [
+                {
+                    "id": "7472027",
+                    "name": "5G",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "MODEL",
+            "name": "Modelo",
+            "value_id": "11958184",
+            "value_name": "iPhone SE (3rd Generation)",
+            "values": [
+                {
+                    "id": "11958184",
+                    "name": "iPhone SE (3rd Generation)",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "OPERATING_SYSTEM_NAME",
+            "name": "Nombre del sistema operativo",
+            "value_id": "7404961",
+            "value_name": "iOS",
+            "values": [
+                {
+                    "id": "7404961",
+                    "name": "iOS",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "OS_LAST_COMPATIBLE_VERSION",
+            "name": "Última versión compatible del sistema operativo",
+            "value_id": "12281407",
+            "value_name": "16",
+            "values": [
+                {
+                    "id": "12281407",
+                    "name": "16",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "OS_ORIGINAL_VERSION",
+            "name": "Versión original del sistema operativo",
+            "value_id": "11856254",
+            "value_name": "15.4",
+            "values": [
+                {
+                    "id": "11856254",
+                    "name": "15.4",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "PROCESSOR_CORES_NUMBER",
+            "name": "Cantidad de núcleos del procesador",
+            "value_id": "7199636",
+            "value_name": "6",
+            "values": [
+                {
+                    "id": "7199636",
+                    "name": "6",
+                    "struct": null
+                }
+            ],
+            "value_type": "number"
+        },
+        {
+            "id": "PROCESSOR_MODEL",
+            "name": "Modelo del procesador",
+            "value_id": "11151775",
+            "value_name": "Apple A15 Bionic",
+            "values": [
+                {
+                    "id": "11151775",
+                    "name": "Apple A15 Bionic",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "PROCESSOR_SPEED",
+            "name": "Velocidad del procesador",
+            "value_id": "11159137",
+            "value_name": "3.22 GHz",
+            "values": [
+                {
+                    "id": "11159137",
+                    "name": "3.22 GHz",
+                    "struct": {
+                        "number": 3.22,
+                        "unit": "GHz"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "RAM",
+            "name": "Memoria RAM",
+            "value_id": "98852",
+            "value_name": "4 GB",
+            "values": [
+                {
+                    "id": "98852",
+                    "name": "4 GB",
+                    "struct": {
+                        "number": 4,
+                        "unit": "GB"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "REAR_CAMERAS_NUMBER",
+            "name": "Cantidad de cámaras traseras",
+            "value_id": "7477198",
+            "value_name": "1",
+            "values": [
+                {
+                    "id": "7477198",
+                    "name": "1",
+                    "struct": null
+                }
+            ],
+            "value_type": "number"
+        },
+        {
+            "id": "REAR_CAMERA_APERTURE",
+            "name": "Apertura del diafragma de la cámara trasera",
+            "value_id": "7505952",
+            "value_name": "f 1.8",
+            "values": [
+                {
+                    "id": "7505952",
+                    "name": "f 1.8",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "REAR_CAMERA_RECORDING_RESOLUTION",
+            "name": "Resolución de video de la cámara trasera",
+            "value_id": "7199630",
+            "value_name": "3840 px x 2160 px",
+            "values": [
+                {
+                    "id": "7199630",
+                    "name": "3840 px x 2160 px",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "RELEASE_MONTH",
+            "name": "Mes de lanzamiento",
+            "value_id": "8275342",
+            "value_name": "Marzo",
+            "values": [
+                {
+                    "id": "8275342",
+                    "name": "Marzo",
+                    "struct": null
+                }
+            ],
+            "value_type": "list"
+        },
+        {
+            "id": "RELEASE_YEAR",
+            "name": "Año de lanzamiento",
+            "value_id": "11166326",
+            "value_name": "2022",
+            "values": [
+                {
+                    "id": "11166326",
+                    "name": "2022",
+                    "struct": null
+                }
+            ],
+            "value_type": "number"
+        },
+        {
+            "id": "SELLER_SKU",
+            "name": "SKU",
+            "value_id": null,
+            "value_name": "MMXF3LE/A",
+            "values": [
+                {
+                    "id": null,
+                    "name": "MMXF3LE/A",
+                    "struct": null
+                }
+            ],
+            "value_type": "string"
+        },
+        {
+            "id": "SIM_CARD_SLOTS_NUMBER",
+            "name": "Cantidad de ranuras para tarjeta SIM",
+            "value_id": "2087812",
+            "value_name": "1",
+            "values": [
+                {
+                    "id": "2087812",
+                    "name": "1",
+                    "struct": null
+                }
+            ],
+            "value_type": "number"
+        },
+        {
+            "id": "WEIGHT",
+            "name": "Peso",
+            "value_id": "2087864",
+            "value_name": "144 g",
+            "values": [
+                {
+                    "id": "2087864",
+                    "name": "144 g",
+                    "struct": {
+                        "number": 144,
+                        "unit": "g"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "WIDE_ANGLE_CAMERA_RESOLUTION",
+            "name": "Resolución de la cámara gran angular",
+            "value_id": "15219719",
+            "value_name": "12 Mpx",
+            "values": [
+                {
+                    "id": "15219719",
+                    "name": "12 Mpx",
+                    "struct": {
+                        "number": 12,
+                        "unit": "Mpx"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "WIDTH",
+            "name": "Ancho",
+            "value_id": "6900331",
+            "value_name": "67.3 mm",
+            "values": [
+                {
+                    "id": "6900331",
+                    "name": "67.3 mm",
+                    "struct": {
+                        "number": 67.3,
+                        "unit": "mm"
+                    }
+                }
+            ],
+            "value_type": "number_unit"
+        },
+        {
+            "id": "WITH_3_5_MM_JACK_CONNECTOR",
+            "name": "Con conector jack 3.5 mm",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_ACCELEROMETER",
+            "name": "Con acelerómetro",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_BAROMETER",
+            "name": "Con barómetro",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_BLUETOOTH",
+            "name": "Con Bluetooth",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_CAMERA",
+            "name": "Con cámara",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_COMPASS",
+            "name": "Con brújula",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_ESIM",
+            "name": "Con eSIM",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_FACIAL_RECOGNITION",
+            "name": "Con reconocimiento facial",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_FAST_CHARGING",
+            "name": "Con carga rápida",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_FINGERPRINT_READER",
+            "name": "Con lector de huella digital",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_FRONT_CAMERA_FLASH",
+            "name": "Con flash en la cámara frontal",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_GPS",
+            "name": "Con GPS",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_GYROSCOPE",
+            "name": "Con giroscopio",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_IMEI",
+            "name": "Con IMEI",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_IRIS_RECOGNITION",
+            "name": "Con reconocimiento de iris",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_MEMORY_CARD_SLOT",
+            "name": "Con ranura para tarjeta de memoria",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_NFC",
+            "name": "Con NFC",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_PHYSICAL_QWERTY_KEYBOARD",
+            "name": "Con teclado QWERTY físico",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_PROXIMITY_SENSOR",
+            "name": "Con sensor de proximidad",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_RADIO",
+            "name": "Con radio",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_REMOVABLE_BATTERY",
+            "name": "Con batería removible",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_TOUCHSCREEN_DISPLAY",
+            "name": "Con pantalla táctil",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_USB_CONNECTOR",
+            "name": "Con conector USB",
+            "value_id": "242084",
+            "value_name": "No",
+            "values": [
+                {
+                    "id": "242084",
+                    "name": "No",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_WIFI",
+            "name": "Con Wi-Fi",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        },
+        {
+            "id": "WITH_WIRELESS_CHARGING",
+            "name": "Con carga inalámbrica",
+            "value_id": "242085",
+            "value_name": "Sí",
+            "values": [
+                {
+                    "id": "242085",
+                    "name": "Sí",
+                    "struct": null
+                }
+            ],
+            "value_type": "boolean"
+        }
+    ],
+    "listing_source": "",
+    "variations": [],
+    "status": "active",
+    "sub_status": [],
+    "tags": [
+        "good_quality_thumbnail",
+        "extended_warranty_eligible",
+        "immediate_payment",
+        "cart_eligible"
+    ],
+    "warranty": "Garantía de fábrica: 12 meses",
+    "catalog_product_id": "MLA1018969583",
+    "domain_id": "MLA-CELLPHONES",
+    "parent_item_id": null,
+    "deal_ids": [
+        "MLA52903"
+    ],
+    "automatic_relist": false,
+    "date_created": "2023-11-29T19:36:05.208Z",
+    "last_updated": "2024-04-18T10:12:29.182Z",
+    "health": null,
+    "catalog_listing": true
+}
