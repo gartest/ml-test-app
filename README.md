@@ -12,7 +12,7 @@ npm i
 ## Run the app
 
 ```bash
-npm i
+npm run dev
 ```
 
 ## Navigate to the app
@@ -22,7 +22,7 @@ npm i
 ## Running Tests
 
 ```bash
-npm test
+npm run test
 ```
 
 > **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
